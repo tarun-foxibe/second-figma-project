@@ -1,0 +1,90 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+
+
+*,
+*::after,
+*::before{
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+}
+.find-test-container{
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #FAFAFA;
+    position:relative;
+    padding: 5rem 0;
+    
+}
+
+.available-comp{
+    position:absolute;
+    right:22%;
+    bottom:40%;
+}
+
+.image-container .male-doc{
+    width:30%;
+    position:absolute;
+    right:0;
+    bottom:0%;
+  
+}
+.find-test-content{
+    margin-left: 8rem;
+}
+.find-test-content p.first-para{
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 20px;
+color: #8F3E97;
+
+margin-bottom: 1.25rem;
+}
+.find-test-content >h1{
+    font-family: 'inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 51px;
+    margin-bottom: 1.25rem;
+    color: #121212;
+}
+.find-test-content p.second-para{
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 30px;
+/* or 136% */
+
+letter-spacing: 0.02em;
+margin-bottom: 2rem;
+color: #696969;
+}
+.tick{
+    display: flex;
+flex-direction: row;
+padding:0;
+margin:1rem 0;
+padding-bottom:0px;
+gap: 12px;
+}
+.tick p{
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 20px;
+letter-spacing: 0.02em;
+color: #121212;
+
+}
+.tick-container{
+    margin-bottom:2rem;
+}

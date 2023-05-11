@@ -1,0 +1,50 @@
+.accrediation-container{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    padding:5rem 0;
+    padding-bottom:10rem;
+    grid-column-gap: 3rem;
+}
+.accrediation-content{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.head h1{
+    font-family: 'inter';
+font-style: normal;
+font-weight: 700;
+font-size: 54px;
+line-height: 40px;
+letter-spacing: 0.015em;
+color: #121212;
+margin-bottom: 1rem;
+}
+.head p{
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 20px;
+letter-spacing: 0.015em;
+color: #8F3E97;
+/* margin-bottom: 2rem; */
+}
+.labs-container{
+    width:100%;
+    position:relative;
+}
+.labs-container .labs{
+    position:absolute;
+    width:85%;
+}
+.logos-container{
+    margin-top:2rem;
+    display:grid;
+    grid-template-columns: repeat(3,auto);
+    grid-column-gap: 10px;
+}
+.accrediation-content .head{
+    margin-top:3rem;
+}

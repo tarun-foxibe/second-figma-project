@@ -1,0 +1,27 @@
+.footer-container{
+    background-color: #FAFAFA;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 4rem;
+    padding-bottom:2rem;
+}
+.soc-icons ul{
+    display:flex;
+    
+    list-style-type: none;
+    
+}
+.soc-icons ul li{
+    padding: 1rem;
+    
+}
+.footer-container p{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.2px;
+color: #8F3E97;
+}

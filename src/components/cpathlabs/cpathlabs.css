@@ -1,0 +1,76 @@
+.cpath-main{
+    width:100%;
+    overflow:hidden;
+}
+.cpathlab-container{
+    width: 100%;
+    display:grid;
+    /* grid-template-columns: repeat(2,1fr); */
+    
+    position:relative;
+    margin-top: 10%;
+    margin-bottom: 4rem;
+    
+    /* grid-column-gap: 6rem; */
+    justify-content: center;
+    
+}
+.cpathlab-container::after {
+content: '';
+position: absolute;
+top: -10%;
+left: 0;
+width: 100%;
+height: 80%;
+background: rgba(143, 62, 151, 0.26);
+z-index: -1;
+}
+.first-para{
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 30px;
+
+padding-top: 1.25rem;
+letter-spacing: 0.03em;
+color: #121212;
+
+} 
+
+ .icon{
+    position:absolute;
+    bottom:5%;
+}
+.icon p{
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 20px;
+letter-spacing: 0.03em;
+color: #121212;
+margin-bottom: 0.75rem;
+}
+.cpathlab-item{
+    display:flex;
+    justify-content: space-around;
+    position:relative;
+ 
+}
+.cpathlab-content{
+    position:relative;
+    margin-right: 12rem;
+}
+.arrows{
+    position:absolute;
+    bottom:13%;
+    right:5%;
+    display: flex;
+}
+.arrows .left{
+    margin-right: 1rem;
+}
+.boy{
+    margin-right: 5rem;
+}

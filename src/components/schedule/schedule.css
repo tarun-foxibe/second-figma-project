@@ -1,0 +1,97 @@
+
+
+.schedule-container{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    margin:10rem 3rem;
+    margin-bottom:5rem;
+    grid-column-gap: 4rem;
+    align-items: center;
+    justify-content: center;
+}
+.schedule-container .doctors img.docs-img {
+    border-radius:15rem;
+    border:4px solid #8F3E97;
+}
+.schedule-content p.first-para{
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 20px;
+color: #8F3E97;
+margin-bottom: 1.25rem;
+}
+.schedule-content >h1{
+    font-family: 'inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 51px;
+    margin-bottom: 1.25rem;
+    color: #121212;
+}
+.schedule-content p.second-para{
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+/* or 136% */
+
+letter-spacing: 0.02em;
+margin-bottom: 2rem;
+color: #696969;
+}
+.tick{
+    display: flex;
+flex-direction: row;
+padding:0;
+margin:1rem 0;
+padding-bottom:0px;
+gap: 12px;
+}
+.tick p{
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 20px;
+letter-spacing: 0.02em;
+color: #121212;
+
+}
+.tick-container{
+    margin-bottom:2rem;
+}
+.schedule-feedback{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.schedule-feedback h1{
+    font-family: 'inter';
+font-style: normal;
+font-weight: 700;
+font-size: 54px;
+line-height: 40px;
+
+text-align: center;
+letter-spacing: 0.015em;
+
+color: #121212;
+margin-bottom:2rem;
+
+}
+.schedule-feedback p{
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 20px;
+/* or 91% */
+
+letter-spacing: 0.015em;
+margin-bottom: 4rem;
+color: #8F3E97;
+
+}
